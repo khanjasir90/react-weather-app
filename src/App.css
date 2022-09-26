@@ -1,0 +1,41 @@
+.home_container {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    justify-content: space-around;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.grid_container_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid_container_2 {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 5rem;
+}
+
+.grid_container_2_input {
+    display: flex;
+    gap: 2rem;
+}
+
+.grid_container_2_input button{
+    padding: 15px 40px;
+    background: #000;
+    border:0;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-size: 12px;
+    letter-spacing: 3px;
+    position: relative;
+    transition: all .4s cubic-bezier(0.645, 0.045, 0.355, 1);
+    cursor: pointer;
+    display: block;
+}
+  
